@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>83</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<style>
+		*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	body
+	{
+		background: url('https://media.istockphoto.com/photos/cricket-ball-and-stumps-picture-id489928866?k=20&m=489928866&s=612x612&w=0&h=lYK-PbzqMtYF2CmKz3ozF6aaS9LId2nCH45wRSUBZS8=') no-repeat fixed;
+		background-size: cover;
+		background-position: center;
+	}
+		
+.slideshowcontainer
+{
+	background-color: silver;
+  	width: 87%;
+  	margin: 20px auto 40px;
+  	padding: 50px 0px;
+}
+
+.slideshowcontainer h2
+{
+	padding: 0px 90px 30px;
+	text-decoration: underline;
+}
+
+.mySlides {display: none}
+.mySlides img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: black;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.text {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.pushable {
+		margin: 10px;
+	  background: red;
+	  border: none;
+	  border-radius: 12px;
+	  padding: 0;
+	  cursor: pointer;
+	  outline-offset: 4px;
+	}
+	.front {
+	  display: block;
+	  padding: 12px 32px 8px;
+	  border-radius: 12px;
+	  font-size: 1.15rem;
+	  background: black;
+	  color: white;
+	  font-weight: bold;
+	  transform: translateY(-4px);
+	  text-shadow: 5px 5px 10px red;
+	}
+
+	.pushable:active .front {
+	  transform: translateY(-2px);
+	}
+	.pushable a
+	{
+		text-decoration: none;
+	}
+
+	.backbtn
+	{
+		margin-top: 20px;
+		margin-left: 32vw;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div class="slideshowcontainer">
+		<h2>GALLERY:</h2>
+		
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 9</div>
+		  <img src="https://static.toiimg.com/thumb/msid-76559677,width-1200,height-900,resizemode-4/.jpg" style="width:100%; height:500px;">
+		  <div class="text">The Indian Cricket Team</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 9</div>
+		  <img src="https://static-ai.asianetnews.com/images/01de6vtgaa9ja9hsyzdrd1xkn4/1983-world-cup18-jpg.jpg" style="width:100%; height:500px;">
+		  <div class="text">Group Photo</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 9</div>
+		  <img src="https://www.crictracker.com/wp-content/uploads/2021/12/Sir-Viv-Richards-and-83-movie-actor.jpg" style="width:100%; height:500px;">
+		  <div class="text">The Legend of Cricket - Sir Viv Richards</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">4 / 9</div>
+		  <img src="https://cdn.wisden.com/wp-content/uploads/2019/06/GettyImages-631341660-e1561374442372.jpg" style="width:100%; height:500px;">
+		  <div class="text">The Fearsome Four Bowlers of West Indies</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">5 / 9</div>
+		  <img src="https://streamingdue.com/wp-content/uploads/2021/12/Kapil-Dev-Ranveer-singh.jpg" style="width:100%; height:500px;">
+		  <div class="text">Kapil Dev breaking the World Record against Zimbabwe</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">6 / 9</div>
+		  <img src="https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/huxe9g6cznuwqjj6_1637907014.jpeg" style="width:100%; height:500px;">
+		  <div class="text">Match changing moment in the Finale</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">7 / 9</div>
+		  <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/04/27/903835-ranveer-singh-in-83.jpg" style="width:100%; height:500px;">
+		  <div class="text">Lifting the Prudential Cup</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">8 / 9</div>
+		  <img src="https://assets.cntraveller.in/photos/61c4455487570a0f236992be/master/w_1024,h_597,c_limit/83%20world%20cup%20india%20indira%20gandhi.jpg" style="width:100%; height:500px;">
+		  <div class="text">Team India meeting The Prime Minister - Indira Gandhi</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">9 / 9</div>
+		  <img src="https://wp.ptcpunjabi.co.in/wp-content/uploads/2021/11/Sachin.jpg" style="width:100%; height:500px;">
+		  <div class="text">Glimpse of Sachin Tendulkar in the movie</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span>
+	  <span class="dot" onclick="currentSlide(4)"></span> 
+	  <span class="dot" onclick="currentSlide(5)"></span> 
+	  <span class="dot" onclick="currentSlide(6)"></span> 
+	  <span class="dot" onclick="currentSlide(7)"></span> 
+	  <span class="dot" onclick="currentSlide(8)"></span>
+	  <span class="dot" onclick="currentSlide(9)"></span> 
+	</div>
+
+		<div class="backbtn">
+			<button class="pushable"> <a href="index.html"> <span class="front"><i class="fas fa-arrow-circle-left"></i> Back to main page </span> </a> </button>
+		</div>
+
+	</div>
+
+
+	<script>
+		
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+	</script>
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.slideshowcontainer', {
+	 		delay : 800,
+	 		duration : 1500,
+	 		distance : '50px',
+	 		origin: 'bottom',
+	 		rotate: {
+        x: 20,
+        z: 20
+    },
+	 	});
+	 	sr.reveal('h2', {
+	 		delay : 1500,
+	 		distance : '50px',
+	 		origin: 'top',
+	 		
+	 	});
+	 	
+	 	sr.reveal('button', {
+	 		delay : 600,
+	 		duration : 1500,
+	 		distance : '50px',
+	 		origin: 'top',
+	 		
+	 	});
+	 </script>
+
+</body>
+</html>

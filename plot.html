@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>83</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<style>
+		*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	body
+	{
+		background: url('https://media.istockphoto.com/photos/cricket-ball-and-stumps-picture-id489928866?k=20&m=489928866&s=612x612&w=0&h=lYK-PbzqMtYF2CmKz3ozF6aaS9LId2nCH45wRSUBZS8=') no-repeat fixed;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.plott
+	{
+		background-color: silver;
+		width: 85%;
+		margin: 0px auto;
+		padding-bottom: 50px; 
+	}
+	.plott h2
+	{
+		padding: 70px 0px 20px 100px;
+		text-decoration: underline;
+	}
+
+	.plott p
+	{
+		font-size: 21px;
+		padding: 0px 100px 70px;
+	}
+
+
+	.pushable {
+		margin: 10px;
+	  background: red;
+	  border: none;
+	  border-radius: 12px;
+	  padding: 0;
+	  cursor: pointer;
+	  outline-offset: 4px;
+	}
+	.front {
+	  display: block;
+	  padding: 12px 32px 8px;
+	  border-radius: 12px;
+	  font-size: 1.15rem;
+	  background: black;
+	  color: white;
+	  font-weight: bold;
+	  transform: translateY(-4px);
+	  text-shadow: 5px 5px 10px red;
+	}
+
+	.pushable:active .front {
+	  transform: translateY(-2px);
+	}
+	.pushable a
+	{
+		text-decoration: none;
+	}
+
+	.backbtn
+	{
+		margin-top: 20px;
+		margin-left: 32vw;
+	}
+	.img
+	{
+		width: 500px;
+		height: 300px;
+		display: block;
+		margin: 0px auto;
+		border-radius: 40px;
+		border: 5px solid black;
+	}
+
+
+	</style>
+</head>
+<body>
+	<br><br><br><br>
+	<div class="plott">
+		<h2>STORYLINE:</h2>
+		<p>
+			Cricket is a feeling in India, not just a sport. Captain Kapil Dev led a team from India, seen as underdogs, to bring home the country’s first-ever World Cup title in the year 1983. And now, we finally have a story on one of the biggest events in Indian cricket history. Kabir Khan’s ‘83’ encapsulates the journey of this team that taught a nation to believe and to pin its hopes on its cricket players’ by returning home as a set of uniquely gifted world champions. And now, we finally have a story on one of the biggest events in Indian cricket history. The unfathomable victory 1983 Cricket World Cup will always hold a special place in the heart of every Indian. March 1983 Indian cricket team gets selected for the third world cup to be held in England in June but none have their expectations from the team,while officials aren't happy with appointment of new captain Kapil Dev over Sunil Gavaskar. Indian cricket team starts with a bang at the world cup by winning their first two matches against giant West Indies and Zimbabwe but loosing their next two matches against West Indies and Australia puts them in a do or die situation against Zimbabwe to stay in the tournament. During the big match against Zimbabwe half of the team is back to the pavilion much before the 10 overs with the score as 17 runs for 5 wickets. Kapil Dev plays a one man show by getting good winning score for the team and keeping their hopes alive in the tournament. Quite literally. From that moment to lift the trophy, the journey has been nothing short of magical for the entire nation. They played their next game against the mighty australians in the quarter final. They won with a huge victory which reserves the Semi Final slot. The Semi Final was played against the home team - England. Team India won the Semi final which brings them to the Final at Lords against the two time World Champions giants West Indies. After scoring the score of just 183 runs, Team India with a good team spirit came to the field for the 2nd innings. After taking initial wickets, the Legend of Cricket, Sir Viv Richards stepped up and destroyed the hopes of Indian fans winning the Prudential Cup. After taking a spectacular catch by the captain of Team India and continuous fall of wickets made the West Indies hopes shattered. The team which was not considered worthy by everyone creates History only due to confidence of one man Kapil Dev. After many criticism, Team India won the Prudential Cup which encouraged many youngsters to play the game of cricket.
+		</p>
+		<img src="https://resources.pulse.icc-cricket.com/ICC/photo/2018/06/22/7adf581c-4b85-4fef-af68-0e476de7fede/India.jpg" class="img">
+
+		<div class="backbtn">
+			<button class="pushable"> <a href="index.html"> <span class="front"><i class="fas fa-arrow-circle-left"></i> Back to main page </span> </a> </button>
+		</div>
+
+	</div>
+	<br><br><br>
+
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.plott', {
+	 		delay : 700,
+	 		distance : '50px',
+	 		origin: 'bottom',
+	 		
+	 	});
+	 	sr.reveal('h2', {
+	 		delay : 1200,
+	 		distance : '50px',
+	 		origin: 'top',
+	 		
+	 	});
+	 	sr.reveal('p', {
+	 		delay : 1800,
+	 		duration : 2400,
+	 		distance : '50px',
+	 		origin: 'left',
+	 		 rotate: {
+        x: 20,
+        z: 20
+    },
+	 	});
+	 	sr.reveal('img', {
+	 		delay : 800,
+	 		duration : 1500,
+	 		distance : '50px',
+	 		origin: 'right',
+	 		
+	 	});
+	 	sr.reveal('button', {
+	 		delay : 600,
+	 		duration : 1500,
+	 		distance : '50px',
+	 		origin: 'top',
+	 		
+	 	});
+	 </script>
+</body>
+</html>
